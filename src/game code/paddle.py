@@ -22,11 +22,13 @@ class Paddle(pygame.sprite.Sprite):
     def moveUp(self, pixels):
         self.rect.y -= pixels
         if self.rect.y < 0:
-            self.rect.y = 0
+            self.rect.y = 0 #function to move the paddle up 
     
     def moveDown(self, pixels):
         self.rect.y += pixels
         if self.rect.y > 400:
-            self.rect.y = 400
+            self.rect.y = 400 #function to move the paddle down
+    
+    
 
    
